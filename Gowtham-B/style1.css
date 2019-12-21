@@ -1,6 +1,188 @@
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.button, .cta {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: .625rem 1rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: CeraPRO;
+    line-height: 1.25;
+    text-align: center;
+    text-decoration: none;
+    background-color: #2ce080;
+    border: 2px solid #2ce080;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+a {
+    color: #2ce080;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+a, button, input, select, textarea {
+    -webkit-tap-highlight-color: transparent;
+}
+a, mark {
+    color: inherit;
+}
+a, a:hover {
+    text-decoration: none;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.st0{
+    fill-rule:evenodd;
+    clip-rule:evenodd;
+    fill:#002f54
+}
+.header {
+    font-family: CeraPRO;
+    position: relative;
+    z-index: 1000;
+    padding: 1.5rem 0;
+    display: block;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+}
 .header__login-link {
     font-size: 1rem;
     font-weight: 500;
     line-height: 1;
     color: #03314b;
+    padding-left: 100%;
+}
+
+.header--homepage {
+    background-color: #eff6f4;
+}
+.header__right {
+    display: flex;
+    align-items: right;
+    padding-right:50px;
+}
+.header__left {
+    display: flex;
+    align-items: center;
+}
+.header__logo {
+    display: inline-block;
+    padding-top: 20px;
+}
+.header--no-signup-cta .header__signup-link, .header--sticky-clone .header__login-link, .header--sticky-clone .header__pricing-link {
+    display: none;
+}
+.header__nav-item:not(:first-child) {
+    margin-left: 1rem;
+}
+.header__link--no-underline {
+    text-decoration: none;
+}
+.header__container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.homepage-hero-banner__headline {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.33;
+    color: #8155fb;
+    margin-bottom: 1.5rem;
+}
+.homepage-hero-banner {
+    font-family: CeraPRO;
+    color: #3a4649;
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 19rem;
+    background-color: #eff6f4;
+}
+.homepage-hero-banner__container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.homepage-hero-banner {
+    font-family: CeraPRO;
+    color: #3a4649;
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 19rem;
+    background-color: #eff6f4;
+}
+.homepage-hero-banner__copy {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #3a4649;
+    max-width: 29rem;
+    margin-bottom: 2rem;
+}
+.homepage-hero-banner__cta {
+    margin-bottom: 1rem;
+}
+.cta-trial-app{
+    align-items:center;
+}
+.cta-trial-app__free-trial {
+    display: inline-block;
+    
+}
+
+.sticky-header--clone {
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    padding: .5rem 0;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(38,34,32,.1);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    opacity: 0;
+    -webkit-transition-property: -webkit-transform opacity;
+    transition-property: -webkit-transform opacity;
+    transition-property: transform opacity;
+    transition-property: transform opacity,-webkit-transform opacity;
+    -webkit-transition-duration: .25s;
+    transition-duration: .25s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
 }
