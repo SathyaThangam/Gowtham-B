@@ -131,6 +131,7 @@ a:-webkit-any-link {
 .homepage-hero-banner__container {
     padding-left: 1rem;
     padding-right: 1rem;
+    align-content: center;
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
@@ -158,6 +159,15 @@ a:-webkit-any-link {
 .homepage-hero-banner__cta {
     margin-bottom: 1rem;
 }
+.homepage-insights__container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    width: 100%;
+}
 .cta-trial-app{
     align-items:center;
 }
@@ -165,7 +175,72 @@ a:-webkit-any-link {
     display: inline-block;
     
 }
+.testimonials__container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    width: 100%;
+    position: relative;
+}
+.homepage-insights__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+}
+.homepage-insights__item {
+    width: 100%;
+    box-sizing: border-box;
+}
+.homepage-insights__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.33;
+    color: #042330;
+    margin-bottom: 1rem;
+}
+.testimonials__label {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.33;
+}
+.testimonials__item:nth-child(3) {
+    display: block;
+}
+.testimonials__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-align: center;
+}
+.testimonials {
+    padding: 1rem 0 2rem;
+    color: #6d787e;
+}
+.testimonials__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-align: center;
+}
 
+.testimonials__item--nyt {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+}
+.testimonials--dark {
+    color: #fff;
+    background-color: #03314b;
+}
+.testimonials {
+    padding: 1rem 0 2rem;
+    color: #6d787e;
+}
 .sticky-header--clone {
     position: fixed;
     top: 0;
