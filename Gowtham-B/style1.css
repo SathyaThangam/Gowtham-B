@@ -7,6 +7,17 @@ h2 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
+a, button, input, select, textarea {
+    -webkit-tap-highlight-color: transparent;
+}
+figure {
+    display: block;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
 .button, .cta {
     display: inline-block;
     box-sizing: border-box;
@@ -274,6 +285,190 @@ a:-webkit-any-link {
     display: inline-block;
     justify-content: center;
 }
+.category{
+    display:inline-block;
+}
+.category-headline{
+    width:100%;
+    color:#042330;
+    font-size:2.25rem;
+    font-weight:700;
+    line-height: 1.33;
+    display:block;
+
+}.category-headline:after {
+    content: "";
+    display: block;
+    width: 6.25rem;
+    height: .325rem;
+    margin-top: 1.5rem;
+    background: #2ce080;
+}
+.category-description{
+    color:#042330;
+    font-size:27px;
+    box-sizing: border-box;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.category-explorer{
+    display: flex;
+    margin-right:-16px;
+    margin-bottom:32px;
+    margin-left:-16px;
+    overflow: hidden;
+}
+.category-slider{
+    margin-top:8px;
+    margin-bottom:8px;
+    overflow: auto;
+}
+.category-slider-inside{
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.category-explorer__book-gallery-headline {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.33;
+    color: #042330;
+    margin-bottom: 16px;
+    overflow: scroll;
+}
+.category-explorer__categories-row {
+    display: inline-flex;
+}
+.category-explorer__categories-row:not(:last-child) {
+    margin-bottom: .5rem;
+}
+.chip {
+    display: flex;
+    align-items: center;
+    padding: 10px 18px;
+    color: #03314b;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.book-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+    justify-content: center;
+}
+.book-gallery__item {
+    margin-bottom: 24px;
+}
+.book-gallery__item {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-grow: 1;
+    margin-bottom: 1rem;
+}
+figure {
+    margin: 0;
+}
+.book-card-vue {
+    width: 100%;
+    max-width: 400px;
+}
+
+.book-card-vue__container {
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 100%;
+    background: #fff;
+}
+.book-card-vue__image {
+    position: absolute;
+    top: 0;
+    width: 376px;
+    height: 244.39px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.book-card-vue__body {
+    flex-grow: 1;
+    width: 100%;
+    padding: 24px 8px 8px;
+    word-wrap: break-word;
+}
+.book-card-vue__content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #bac8ce;
+    border-top: 0;
+}
+.book-card-vue__headline {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.33;
+    color: #042330;
+    position: relative;
+    width: 100%;
+    max-height: 2.9925rem;
+    margin-bottom: .5rem;
+    overflow: hidden;
+}
+.book-card-vue__sub-headline {
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.57;
+    color: #6d787e;
+    position: relative;
+    width: 100%;
+    max-height: 2.7475rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+.book-card-vue__sub-headline:before {
+    content: "\200C";
+    position: absolute;
+    top: 1.37375rem;
+    right: 0;
+    display: block;
+    width: 30%;
+    text-align: center;
+    background: linear-gradient(90deg,hsla(0,0%,100%,0) 0,#fff 50%);
+}
+.book-card-vue__author {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #042330;
+    position: absolute;
+    bottom: 0;
+    padding: 8px 16px;
+    background-color: #e6fc88;
+}
+.book-card-vue__stats {
+    font-size: .14px;
+    font-weight: 400;
+    line-height: 1.57;
+    color: #6d787e;
+    display: flex;
+    flex-wrap: wrap;
+    color: #3a4649;
+}
+.book-card-vue__stats-item {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    align-items: center;
+    margin-bottom: .5rem;
+    white-space: nowrap;
+}
+
 .testimonials {
     padding: 1rem 0 2rem;
     color: #6d787e;
