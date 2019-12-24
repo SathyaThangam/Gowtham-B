@@ -7,6 +7,18 @@ h2 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
+ul {
+    list-style-type: none;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
 a, button, input, select, textarea {
     -webkit-tap-highlight-color: transparent;
 }
@@ -371,6 +383,9 @@ a:-webkit-any-link {
     flex-grow: 1;
     margin-bottom: 1rem;
 }
+.book-gallery__item:nth-child(-n+3) {
+    display: flex;
+}
 figure {
     margin: 0;
 }
@@ -385,6 +400,7 @@ figure {
     flex-grow: 1;
     flex-direction: column;
     width: 100%;
+
     background: #fff;
 }
 .book-card-vue__image {
@@ -395,6 +411,32 @@ figure {
     -o-object-fit: cover;
     object-fit: cover;
 }
+.book-card-vue__stats-item {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    align-items: center;
+    margin-bottom: .5rem;
+    white-space: nowrap;
+}
+.book-card-vue__stats-sprite {
+    width: 14px;
+    height: 14px;
+    margin-right: .5rem;
+}
+.sprite-vue {
+    fill: currentColor;
+}
+.book-card-vue__stats {
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.57;
+    color: #6d787e;
+    display: flex;
+    flex-wrap: wrap;
+    color: #3a4649;
+}
+
 .book-card-vue__body {
     flex-grow: 1;
     width: 100%;
@@ -405,19 +447,23 @@ figure {
     display: flex;
     flex-grow: 1;
     flex-direction: column;
-    width: 100%;
+    width: 376px;
     border: 1px solid #bac8ce;
     border-top: 0;
 }
+.book-card-vue__figure {
+    position: relative;
+    padding-top: 65%;
+}
 .book-card-vue__headline {
-    font-size: 1.125rem;
+    font-size: 20px;
     font-weight: 700;
     line-height: 1.33;
     color: #042330;
     position: relative;
     width: 100%;
-    max-height: 2.9925rem;
-    margin-bottom: .5rem;
+    max-height: 23px;
+    margin-bottom: 8px;
     overflow: hidden;
 }
 .book-card-vue__sub-headline {
@@ -427,20 +473,11 @@ figure {
     color: #6d787e;
     position: relative;
     width: 100%;
+    padding-top:-10px;
     max-height: 2.7475rem;
     margin-bottom: 1rem;
-    overflow: hidden;
 }
-.book-card-vue__sub-headline:before {
-    content: "\200C";
-    position: absolute;
-    top: 1.37375rem;
-    right: 0;
-    display: block;
-    width: 30%;
-    text-align: center;
-    background: linear-gradient(90deg,hsla(0,0%,100%,0) 0,#fff 50%);
-}
+
 .book-card-vue__author {
     font-size: 16px;
     font-weight: 500;
@@ -457,7 +494,6 @@ figure {
     line-height: 1.57;
     color: #6d787e;
     display: flex;
-    flex-wrap: wrap;
     color: #3a4649;
 }
 .book-card-vue__stats-item {
