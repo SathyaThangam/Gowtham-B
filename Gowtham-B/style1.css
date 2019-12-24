@@ -372,6 +372,7 @@ a:-webkit-any-link {
     margin-left: -8px;
     margin-right: -8px;
     justify-content: center;
+   
 }
 .book-gallery__item {
     margin-bottom: 24px;
@@ -382,6 +383,12 @@ a:-webkit-any-link {
     display: flex;
     flex-grow: 1;
     margin-bottom: 1rem;
+}
+.book-card-vue__stats-label{
+    width:16px;
+    height: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
 }
 .book-gallery__item:nth-child(-n+3) {
     display: flex;
