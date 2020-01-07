@@ -1,0 +1,26 @@
+.headline {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.33;
+    color: #042330;
+    margin-bottom: 16px;
+}
+
+.struct {
+    margin-top: 200px;
+}
+
+.Items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+    justify-content: center;
+    box-sizing: inherit;
+}
+
+.main {
+    width: 100%;
+    max-width: 1040px;
+    display: flex;
+}

@@ -1,0 +1,143 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 1.27rem;
+    color: black;
+    padding: 1rem 1rem 0rem;
+    display: inline;
+}
+
+h3 {
+    margin: .2rem;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: -6rem;
+    margin-block-end: 0rem;
+    padding: 1rem 1rem 0rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h4 {
+    margin-block-start: .33rem;
+    margin-block-end: .33rem;
+}
+
+button {
+    -webkit-appearance: button;
+    /* -webkit-writing-mode: horizontal-tb !important; */
+    text-rendering: auto;
+    color: #fff;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: greenyellow;
+    box-sizing: border-box;
+    margin: 0em;
+    width: 4rem;
+    font: 400 1.5rem Arial;
+    padding: 1px 6px;
+    padding-top: 1px;
+    padding-right: 6px;
+    padding-bottom: 1px;
+    padding-left: 6px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: yellow;
+    border-image: initial;
+}
+
+.header {
+    width: 100%;
+    line-height: 7rem;
+}
+
+.nav-bar {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    background-color: grey;
+    color: black;
+    text-align: center;
+}
+
+.img-style {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-cart-icon {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: 10px;
+    top: 11px;
+    background-position: -10px -340px;
+    width: 38px;
+    height: 26px;
+}
+
+.style-link {
+    text-decoration: none;
+    align-items: initial;
+}
+
+#nav-tools .nav-a:last-of-type {
+    padding-left: 6px;
+}
+
+#nav-tools .nav-a-2, #nav-xshop .nav-a-2, #navbar .nav-tools .nav-a-2 {
+    padding-right: 0;
+    overflow: hidden;
+    top: 1px;
+    margin: 0 1px;
+    display: inline-block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.cart-button {
+    display: block;
+    margin-left: 1rem;
+}
+
+.link-site {
+    display: block;
+    /* flex-grow: 1;
+    flex-wrap: column; */
+    margin-left: 1rem;
+}
+
+.nav-cart-img-icon {
+    display: block;
+    height: 10px;
+    background-image: url("https://image.flaticon.com/icons/svg/2121/2121815.svg");
+}
+
+.nav-cart .nav-cart-0, .nav-tools {
+    left: 200px;
+    top: 9px;
+    font-size: 16px;
+    width: 19px;
+}
+
+.nav-a, .nav-tools {
+    position: relative;
+    float: left;
+    top: 1px;
+    padding: 0 0 0 9px;
+    line-height: 30px;
+    height: 44px;
+}
+
+.nav-cart-count {
+    text-decoration: underline;
+    color: #1a1aff
+}
