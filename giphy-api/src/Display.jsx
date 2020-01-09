@@ -34,7 +34,7 @@ class Display extends React.Component {
             <div className="container">
                 <div className="fig">
                     <GifPlayer gif={this.props.preview} />
-                    <div>{this.props.title}</div>
+
                 </div>
 
             </div>
