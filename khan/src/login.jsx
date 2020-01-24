@@ -28,14 +28,14 @@ class Login extends React.Component {
     //     });
     // }
     check = (e) => {
-        console.log(this.state.email, this.state.password)
+
         axios.post('http://localhost:5223/login', { email: this.state.email, password: this.state.password })
             .then(res => {
-                const users = res.data.results.rows;
-                console.log(users);
+                console.log(res)
+                const users = res.data.token;
                 if (res.data.success === true) {
+                    localStorage.setItem('user', users);
                     this.props.history.push('/');
-                    localStorage.setItem('user', JSON.stringify(users));
                 }
                 else {
                     alert("invalid credentials");

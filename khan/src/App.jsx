@@ -6,6 +6,7 @@ import './App.css';
 import Homepage from './homepage';
 import Signup from './signup';
 import Login from './login';
+// import Model from './model';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/" component={Homepage} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/signup" component={Signup} />
+
       </div>
     </Router>
   );
