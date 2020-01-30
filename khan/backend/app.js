@@ -1,17 +1,9 @@
 const bodyParser = require("body-parser");
 const express = require("express");
-const jwt = require("jsonwebtoken");
+
 const db = require("./db/db");
-const { Client } = require("pg");
+
 const route = require("./route/approute");
-const client = new Client({
-  user: "postgres",
-  password: "rahul1095",
-  host: "localhost",
-  port: 5432,
-  database: "postgres"
-});
-client.connect().then(() => console.log("connected database"));
 
 const app = express();
 var cors = require("cors");
@@ -27,7 +19,7 @@ app.listen(PORT, () => {
 });
 // var http=require('http');
 
-// var server=http.createSeconnected databaserver(function(req,res){
+// var server=http.createServer(function(req,res){
 //   res.end('test');
 // });
 

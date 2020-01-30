@@ -10,6 +10,7 @@ class Login extends React.Component {
         this.state = {
             email: "",
             password: "",
+
             users: []
         }
     }
@@ -28,19 +29,26 @@ class Login extends React.Component {
     //     });
     // }
     check = (e) => {
+        var roles = document.getElementById('role').value;
+        var id = 0;
+        if (roles === "Teacher") {
+            id = 1;
+        }
+        else if (roles === "Student") {
+            id = 2;
+        }
 
-        axios.post('http://localhost:5223/login', { email: this.state.email, password: this.state.password })
+        axios.post('http://localhost:5233/login', { email: this.state.email, password: this.state.password, role: id })
             .then(res => {
-                console.log(res)
-                const users = res.data.token;
+                console.log(res);
+                const users = res.data;
                 if (res.data.success === true) {
-                    localStorage.setItem('user', users);
+                    localStorage.setItem('user', JSON.stringify({ token: users.token, role: users.role }));
                     this.props.history.push('/');
                 }
                 else {
                     alert("invalid credentials");
                 }
-
             })
 
 
@@ -54,7 +62,7 @@ class Login extends React.Component {
         return (
             <div className="signpage">
                 <div className="container">
-                    <h2>Login</h2>
+                    <h2 className="heading">LOGIN</h2>
                     <div id="login">
                         <div className="col-25">
                             <label htmlFor="fname">Email</label>
@@ -71,15 +79,15 @@ class Login extends React.Component {
                             <label htmlFor="fname">Are you a Student/Teacher?</label>
                         </div>
                         <div className="col-75">
-                            <select id="role" name="role">
+                            <select id="role" className="selectstyle" name="role">
                                 <option value="Teacher">Teacher</option>
                                 <option value="Student">Student</option>
 
                             </select>
                         </div>
-                        <button id="send" onClick={e => { this.check(e) }}>Login</button>
-                        <p>New user?</p>
-                        <button ><a className="line" href="/signup">signup</a></button>
+                        <button id="send" className="buttonstyle" onClick={e => { this.check(e) }}>Login</button>
+                        <p className="para">New user?</p>
+                        <button className="buttonstyle"><a className="line" href="/signup">signup</a></button>
                     </div>
 
                 </div>

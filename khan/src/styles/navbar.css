@@ -1,0 +1,119 @@
+.navbar {
+  display: inline-flex;
+  width: 100%;
+  background-color: white;
+  height: 70px;
+  border-spacing: 50px;
+  align-items: center;
+  padding-left: 25rem;
+  z-index: 1060px;
+  border-top: 1px solid #D6D8DA !important;
+  border-bottom: 1px solid #D6D8DA !important
+}
+
+h4 {
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+}
+
+.search {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin-left: 50px !important;
+  width: 300px !important;
+  -moz-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  height: 100% !important;
+  display: flex;
+}
+
+.user {
+  display: inline-flex;
+  padding-top: 14px;
+  align-items: center;
+}
+
+.image {
+  background-color: white;
+}
+
+.button_bar {
+  padding: 0 1rem;
+  cursor: pointer;
+  /* background-color: transparent; */
+  align-items: center;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  /* background-color: #1865f2; */
+  font-weight: 700;
+  margin-left: 20px;
+  margin-right: 20px;
+  outline: none;
+  background-color: white;
+  height: 100%;
+  border: none;
+  color: #696969;
+}
+
+.active {
+  color: #212121;
+  border-bottom: 2px solid #1865F2;
+}
+
+.actives {
+  transform: rotateZ(180deg);
+}
+
+.logo {
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 200px;
+  height: 40px;
+  top: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-spacing: 12px;
+}
+
+.search {
+  margin: 5px 0;
+  border: 1px solid silver;
+  padding: 0 .5rem;
+  width: 100%;
+  position: relative;
+  display: flex;
+  border-radius: 5px;
+}
+
+.list {
+  box-sizing: border-box !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 1200px !important;
+  padding-right: 32px !important;
+  padding-left: 0px;
+  padding-top: 14px !important;
+  padding-bottom: 22px !important;
+  list-style: none;
+  cursor: pointer;
+}
+
+.imagesize {
+  width: 28px;
+}
+
+.list li {
+  padding-bottom: 16px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+
+.lines {
+  text-decoration: none;
+  color: #1865f2;
+}
+
+.switch {
+  margin-left: 100px;
+}
