@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="61px" viewBox="0 0 56 61" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Secure</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0-0-12-Homepage@2x" transform="translate(-692.000000, -2442.000000)" fill-rule="nonzero">
+            <g id="Group-23" transform="translate(560.000000, 2376.000000)">
+                <g id="Group-12-Copy" transform="translate(40.000000, 66.000000)">
+                    <g id="Secure" transform="translate(92.000000, 0.000000)">
+                        <path d="M27.7597656,61 C44.4031152,54.7739492 55.4332734,38.8709395 55.4332734,21.1013535 L55.4332734,10.3313984 C49.7273906,10.3313984 45.101875,5.70588281 45.101875,0 L27.7597656,0 L10.4176562,0 C10.4176562,5.70588281 5.79214062,10.3313984 0.0862578125,10.3313984 L0.0862578125,21.1012344 C0.0862578125,38.8709395 11.116416,54.7739492 27.7597656,61 Z" id="Shape" fill="#0052CC"></path>
+                        <path d="M27.7597656,61 C44.4031152,54.7739492 55.4332734,38.8709395 55.4332734,21.1013535 L55.4332734,10.3313984 C49.7273906,10.3313984 45.101875,5.70588281 45.101875,0 L27.7597656,0 C27.7597656,0 27.7597656,47.4179688 27.7597656,61 Z" id="Shape" fill="#3384FF"></path>
+                        <path d="M23.9046133,29.7326009 L35.7343242,17.90289 L42.2031979,24.3717637 L23.9046179,42.6703437 L13.3163371,32.0822004 L19.7851987,25.6131863 L23.9046133,29.7326009 Z" id="Shape" stroke="#FFFFFF" stroke-width="2" fill="#dc3545"></path>
+                        <polygon id="Shape" fill="#dc3545" points="27.7597656 37.4009824 27.7597656 27.2916621 35.7343242 19.3171035 40.7889844 24.3717637"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

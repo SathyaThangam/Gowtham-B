@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="61px" viewBox="0 0 68 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Fast and Simple</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M30.5,0 C13.6545879,0 0,13.6545879 0,30.5 C0,47.3454121 13.6545879,61 30.5,61 C47.3454121,61 61,47.3454121 61,30.5 C61,13.6545879 47.3454121,0 30.5,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0-0-12-Homepage@2x" transform="translate(-282.000000, -2811.000000)">
+            <g id="Group-26" transform="translate(160.000000, 2736.000000)">
+                <g id="Group-12-Copy" transform="translate(40.000000, 75.000000)">
+                    <g id="Fast-and-Simple" transform="translate(82.000000, 0.000000)">
+                        <g id="Rectangle-11" transform="translate(7.000000, 0.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#0052CC" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <polygon fill="#3384FF" fill-rule="nonzero" mask="url(#mask-2)" points="18.7460938 -15 74 -15 74 70 39 70"></polygon>
+                        </g>
+                        <g id="fast" transform="translate(0.000000, 7.000000)" fill-rule="nonzero">
+                            <rect id="Rectangle-path" fill="#dc3545" x="3" y="15" width="12" height="4"></rect>
+                            <rect id="Rectangle-path" fill="#dc3545" x="3" y="29" width="13" height="4"></rect>
+                            <rect id="Rectangle-path" fill="#dc3545" x="0" y="22" width="14" height="4"></rect>
+                            <path d="M37.4999406,0 C24.5420861,0 14,10.5421127 14,23.5 C14,36.4578873 24.5419672,47 37.4999406,47 C50.4579139,47 61,36.4578873 61,23.5 C61,10.5421127 50.4579139,0 37.4999406,0 Z M37.4999406,43.4349827 C26.5078316,43.4349827 17.5650083,34.4921367 17.5650083,23.5 C17.5650083,12.5078633 26.5078316,3.56501732 37.4999406,3.56501732 C48.4921684,3.56501732 57.4349917,12.5078633 57.4349917,23.5 C57.4349917,34.4921367 48.4921684,43.4349827 37.4999406,43.4349827 Z" id="Shape" fill="#FFFFFF"></path>
+                            <path d="M35.3932059,23.1191259 L44.9265454,13.5857864 L50.4142136,19.0734546 L35.3932105,34.0944577 L26.5857902,25.2871517 L32.0734463,19.7993663 L35.3932059,23.1191259 Z" id="Shape" stroke="#FFFFFF" stroke-width="2" fill="#dc3545"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
