@@ -44,11 +44,17 @@
     padding: 2rem 2rem;
 }
 a{
-color: #3b5fbf;
-text-decoration: none;
-background-color: transparent;}
+    color: #3b5fbf;
+    text-decoration: none;
+    background-color: transparent;
+}
+.c:hover{
+    color:#294285;
+}
+
 .isvgl{
     padding: 0.5rem;
+    width: 70px;
 }
 .nav-it{
     padding-top: 2rem;
