@@ -1,6 +1,6 @@
 import React from 'react';
 import './middle.css';
-import Card from '../components/card';
+import Card from '../../components/card';
 function Pricing() {
     return (
         <div className="features">

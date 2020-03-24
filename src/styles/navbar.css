@@ -39,6 +39,12 @@
     text-decoration: none;
     color:#fff;
 }
+.nav-item:hover{
+    background-color: hsla(0,0%,100%,.05);
+}
+.nav-link:hover{
+    text-shadow: 0 0 10px rgba(0,0,0,.2);
+}
 .title{
     color:#fff!important;
     margin-left: 1rem!important;

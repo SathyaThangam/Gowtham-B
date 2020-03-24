@@ -1,10 +1,10 @@
 import React from 'react';
 import './middle.css';
-import asus from '../images/asus.svg';
-import woorank from '../images/woorank.svg';
-import brands from '../images/brandsintown.svg';
-import axe from '../images/axeptio.svg';
-import can from '../images/canonical.svg';
+import asus from '../../images/asus.svg';
+import woorank from '../../images/woorank.svg';
+import brands from '../../images/brandsintown.svg';
+import axe from '../../images/axeptio.svg';
+import can from '../../images/canonical.svg';
 function Customer() {
     return (
         <div className="features">

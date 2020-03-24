@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css';
-import logo from '../images/logo.svg';
+import logo from '../../images/logo.svg';
 import Integrate from './integrate';
 function Footer() {
     return (

@@ -51,7 +51,48 @@ a{
 .c:hover{
     color:#294285;
 }
-
+.ccc{
+    fill:#212529;
+}
+.ccc:hover{
+    fill:#68217A;
+}
+.ccc1{
+    fill:#212529;
+}
+.ccc1:hover{
+    fill:#000;
+}
+.ccc2{
+    fill:#212529;
+}
+.ccc2:hover{
+    fill:#EA2D2E;
+}
+.ccc3{
+    fill:#212529;
+}
+.ccc3:hover{
+    fill:#83CD29;
+}
+.ccc4{
+    fill:#212529;
+}
+.ccc4:hover{
+    fill:#6181B6;
+}
+.ccc5{
+    fill:#212529;
+}
+.ccc5:hover{
+    fill:#FFD845;
+}
+.ccc6{
+    fill:#212529;
+}
+.ccc6:hover{
+    fill:#D91404;
+}
 .isvgl{
     padding: 0.5rem;
     width: 70px;
@@ -67,10 +108,12 @@ a{
 .isvgls{
     padding: 0.5rem;
     padding-top:1.5rem;
+    width: 70px;
 }
 .isvglp{
     padding: 0.5rem;
     padding-top:1.27rem;
+    width: 70px;
 }
 .isvg{
     justify-content: space-between;

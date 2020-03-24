@@ -1,11 +1,11 @@
 import React from 'react';
 import './middle.css';
-import secure from '../images/secure.svg'
-import chrome from '../images/chromes.svg'
-import scale from '../images/scale.svg'
-import view from '../images/viewport.svg'
-import simple from '../images/simple.svg'
-import time from '../images/timing.svg'
+import secure from '../../images/secure.svg'
+import chrome from '../../images/chromes.svg'
+import scale from '../../images/scale.svg'
+import view from '../../images/viewport.svg'
+import simple from '../../images/simple.svg'
+import time from '../../images/timing.svg'
 function MiddlePage() {
     return (
         <div className="features">

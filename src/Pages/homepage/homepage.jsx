@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import '../Pages/homepage.css';
-import Navbar from '../components/navbar';
+import './homepage.css';
+import Navbar from '../../components/navbar';
 import MiddlePage from './middle';
 import Customer from './customer';
 import Pricing from './pricing';
 import Integrate from './integrate';
 import Footer from './footer';
 // import msg from '../images/msg.png';
-import m from '../images/ss.png'
-import Dynamic from '../components/dynamicdis';
+import m from '../../images/ss.png'
+import Dynamic from '../../components/dynamicdis';
 
 
 
