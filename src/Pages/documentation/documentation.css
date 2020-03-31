@@ -1,6 +1,8 @@
+.documentation{
+    display: block;
+}
 .navbard{
-    background: linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.15)) ;
-            /* background-image:  url("../images/bg.jpg"); */
+    background: linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.15)) ;  /* background-image:  url("../images/bg.jpg"); */
         position: relative;
         padding-left: 1rem;
         padding-top:1rem;
@@ -8,9 +10,24 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
+        background-image:url("../../images/bg.jpg");
      
     }
-    .about{
-        
-        background-image:url("../../images/bg.jpg");
+    .abouts{
+        display: block;
     }
+    .bodyset{
+        padding-top: 1rem;
+        display: flex;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+    .space{
+        display: flex;
+        flex-direction: column;
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+}
+    
