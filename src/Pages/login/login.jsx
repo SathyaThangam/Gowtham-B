@@ -58,7 +58,7 @@ function Login() {
                                     <span className="ml-2">Github</span>
                                 </a>
                                 <GoogleLogin
-                                    clientId="443264665497-igu1q9invv47cbo88gvs5bdcrumjm08d.apps.googleusercontent.com"
+                                    clientId="4onwndowndwnidowkdnoi"
                                     render={renderProps => (
                                         <a className="btn-danger af-icon" href="/oauth/google/login?next=">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512">
