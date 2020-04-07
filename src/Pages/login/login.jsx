@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Firebase from 'firebase';
+import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import { GoogleLogin } from 'react-google-login';
 import GitHubLogin from 'react-github-login';
 import logo from '../../images/logo.svg';
 import m from '../../images/ss.png';
 import './login.css';
+
 const responseGoogle = (response) => {
     console.log(response);
 }
@@ -18,6 +21,7 @@ const onFailure = response => {
 }
 
 function Login() {
+    const [login, setlogin] = useState(false);
     return (
         <div className="loginpage">
             <div className="se">
@@ -46,9 +50,9 @@ function Login() {
                                 or login with
                             </div>
                             <div className="btnsign">
-                                <GitHubLogin clientId="05a8084e58b2f566891e"
+                                {/* <GitHubLogin clientId="05a8084e58b2f566891e"
                                     onSuccess={onSuccess}
-                                    onFailure={onFailure} />
+                                    onFailure={onFailure} /> */}
                                 <a className="btn-dark af-icon" href="/oauth/github/login?next=">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
                                         <path fill="currentColor"
@@ -84,7 +88,7 @@ function Login() {
                     </div>
                     <div className="card-footer">
                         New to ApiFlash?
-            <a href="/register">
+            <a href="/signup">
                             Create an account.
             </a>
                     </div>
